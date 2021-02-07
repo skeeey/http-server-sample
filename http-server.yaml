@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: http-server
-        image: quay.io/skeeey/http-server:v0.1.0
+        image: quay.io/skeeey/http-server:v0.2.0
         command:
         - "/http-server"
         ports:

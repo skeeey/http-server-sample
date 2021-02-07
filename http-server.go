@@ -10,7 +10,7 @@ import (
 const ServerPortKey = "SERVER_PORT"
 
 func hello(w http.ResponseWriter, req *http.Request) {
-	fmt.Fprintf(w, "hello\n")
+	fmt.Fprintf(w, "Bonjour\n")
 }
 
 func main() {
